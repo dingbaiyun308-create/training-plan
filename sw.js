@@ -1,4 +1,4 @@
-const CACHE_NAME = 'training-plan-revised-first-format-v2';
+const CACHE_NAME = 'training-plan-iphone-app-v20260708-circle';
 const ASSETS = ['./', './index.html', './manifest.webmanifest', './icons/apple-touch-icon.png', './icons/icon-192.png', './icons/icon-512.png'];
 self.addEventListener('install', event => {
   event.waitUntil(caches.open(CACHE_NAME).then(cache => cache.addAll(ASSETS)).then(() => self.skipWaiting()));

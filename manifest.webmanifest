@@ -1,8 +1,8 @@
 {
-  "name": "第2阶段修订版训练计划器",
+  "name": "训练计划器",
   "short_name": "训练计划器",
-  "description": "三练力量优先，第一版直观打勾格式。",
-  "start_url": "./",
+  "description": "三练力量优先，横向滑动训练日选择，手机本地保存记录。",
+  "start_url": "./index.html",
   "scope": "./",
   "display": "standalone",
   "orientation": "portrait",
