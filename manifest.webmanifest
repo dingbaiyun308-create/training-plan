@@ -1,23 +1,25 @@
 {
-  "name": "第2阶段训练计划器",
+  "name": "第2阶段修订版训练计划器",
   "short_name": "训练计划器",
-  "description": "4周3+1力量加速、背部强化与首个引体计划。",
-  "start_url": "./index.html",
+  "description": "三练力量优先，第一版直观打勾格式。",
+  "start_url": "./",
   "scope": "./",
   "display": "standalone",
-  "background_color": "#f6f8fb",
-  "theme_color": "#14532d",
   "orientation": "portrait",
+  "background_color": "#f6f8fc",
+  "theme_color": "#2563eb",
   "icons": [
     {
       "src": "icons/icon-192.png",
       "sizes": "192x192",
-      "type": "image/png"
+      "type": "image/png",
+      "purpose": "any maskable"
     },
     {
       "src": "icons/icon-512.png",
       "sizes": "512x512",
-      "type": "image/png"
+      "type": "image/png",
+      "purpose": "any maskable"
     }
   ]
 }
